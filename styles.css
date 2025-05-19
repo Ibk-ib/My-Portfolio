@@ -1,5 +1,5 @@
 body{
-    padding: 10px 30px;
+    padding: 0 30px;
 }
 header{
     display: flex;
@@ -41,3 +41,53 @@ td{
 thead{
     border: none;
 }
+fieldset{
+    width: 500px;
+    padding: 20px 20px;
+    border-radius: 10px;
+    justify-self: center;
+}
+label{
+    font-weight: bold;
+    font-size: 15px;
+}
+.details{
+    margin-top: 15px;
+}
+input{
+    padding: 10px 10px;
+}
+textarea{
+    padding: 5px 10px;
+}
+.details a{
+    color: black;
+}
+.details a:hover{
+    color: blue;
+}
+input[type="submit"]{
+    width: 95%;
+    background-color: rgb(26, 8, 8);
+    color: white;
+    border: none;
+}
+input[type="submit"]:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+html{
+    scroll-behavior: smooth;
+}
+footer {
+    padding: 30px;
+    background-color: #eee;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 50px;
+    border-radius: 10px;
+  }
+  footer a{
+    color: black;
+  }
