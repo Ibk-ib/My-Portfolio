@@ -1,0 +1,43 @@
+body{
+    padding: 10px 30px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(82, 80, 80);
+    padding: 10px 15px;
+    border-radius: 15px;
+    margin-bottom: 80px;
+    
+}
+nav{
+    display: flex;
+    gap: 30px;
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 17px;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+}
+.about p{
+    width: 600px;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: -10px;
+}
+.about img{
+    border-radius: 90px 20px 10px 20px;
+}
+td{
+    padding: 10px 10px;
+    border: none;
+    text-align: center;
+}
+thead{
+    border: none;
+}
