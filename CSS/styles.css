@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    width: 100%;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 90px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000; 
+    background: white;
+}
+header img{
+    max-width: 100px;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+ul li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    transition: 0.5s;
+}
+li a:hover{
+    color: #08ff8a;
+    transition: 0.5s;
+}
+@media (max-width: 768px) {
+    header{
+        padding: 30px 30px;
+    }
+    header img{
+       max-width: 100px;
+    }
+    a{
+        display: none;
+    }
+}
+
+                                        /* HOME */
+#home{
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 90px;
+    align-items: center;
+}
+.divhome{
+    width: 60%;
+}
+.divhome input{
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    background-color: #048a4b;
+    border: #048a4b;
+    padding: 9px 30px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.divhome input:hover{
+    background-color: #05b965;
+    transition: 1s;
+}
+.intro{
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;;
+    font-size: 70px;
+    font-weight: 700;
+    color: black;
+    line-height: 84px;
+    margin-top: -40px;
+}
+.intro span{
+    color: #048a4b;
+}
+.job{
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    margin-top: -60px;
+}
+.imghome{
+    width: 40%;
+}
+.imghome img{
+    border-radius: 30% 10% 10% 10%;
+    width: 500px;
+}
+@media (max-width: 768px) {
+    #home{
+        display: block;
+        padding: 40px 30px;
+        align-items: center;
+    }
+    .intro{
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;;
+        font-size: 40px;
+        font-weight: 700;
+        color: black;
+        line-height: 45px;
+        margin-top: -20px;
+    }
+    .divhome{
+        width: 100%;
+    }
+    .job{
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;;
+        font-size: 18px;
+        font-weight: 400;
+        color: black;
+        margin-top: -29px;
+    }
+    .imghome{
+        width: 100%;
+    }
+    .imghome img{
+        border-radius: 10% 10% 10% 10%;
+        width: 100%;
+        margin-top: 20px;
+    }
+}
