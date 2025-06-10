@@ -65,7 +65,7 @@ li a:hover{
     font-weight: 400;
     color: white;
     background-color: #048a4b;
-    border: #048a4b;
+    border: none;
     padding: 9px 30px;
     border-radius: 10px;
     transition: 1s;
@@ -73,6 +73,7 @@ li a:hover{
 .divhome input:hover{
     background-color: #05b965;
     transition: 1s;
+    border: none;
 }
 .intro{
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;;
@@ -132,3 +133,194 @@ li a:hover{
         margin-top: 20px;
     }
 }
+
+
+                                /* ABOUT */
+#about{
+    display: flex;
+    padding: 90px 90px;
+    gap: 60px;
+}
+.divabout1{
+    width: 50%;
+}
+.divabout1 span{
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;;
+    font-size: 20px;
+    font-weight: 400;
+    color: #05b965;
+}
+.soft{
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;;
+    font-size: 45px;
+    font-weight: 700;
+    color: #000000;
+    margin:2% 0;
+}
+.introd{
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;;
+    font-size: 15px;
+    font-weight: 400;
+    color: #666666;
+    margin: 0%;
+}
+.divabout2, .divabout3{
+    width: 50%;
+}
+.divskills{
+    display: flex;
+    justify-content: space-between;
+}
+progress{
+    width: 100%;
+} 
+
+@media (max-width: 768px) {
+    #about{
+        display: block;
+        padding: 40px 30px;
+        gap: 60px;
+    }
+    .divabout1{
+        width: 100%;
+    }
+    .divabout1 span{
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;;
+        font-size: 20px;
+        font-weight: 400;
+        color: #05b965;
+    }
+    .soft{
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;;
+        font-size: 25px;
+        font-weight: 700;
+        color: #000000;
+        margin: 5% 0;
+    }
+    .introd{
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;;
+        font-size: 15px;
+        font-weight: 400;
+        color: #666666;
+    }
+    .divabout2, .divabout3{
+        width: 100%;
+    }
+    .divskills{
+        display: flex;
+        justify-content: space-between;
+    }
+    progress{
+        width: 100%;
+    } 
+}
+
+
+                    /* EXPERIENCE */
+ #experience{
+    padding: 90px 90px;
+    background-color: #f2f4ff;
+ }  
+ .divexp{
+    text-align: center;
+ } 
+ .divexp span{
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #05b965;
+    margin-left: 8px;
+ }
+ .exp-row{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+ } 
+ .webdesigner{
+    width: 50%;
+    border: 1px solid rgb(182, 176, 176);
+    padding: 10px 20px;
+ }
+ .head{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin: -10px -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+ }
+ .headtitle{
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;;
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+    background-color: #05b965;
+    padding: 5px 8px;
+    border-radius: 10px;
+    align-self: center;
+ }
+ .headdate{
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+ }
+ .bottom{
+    display: flex;
+   gap: 20px;
+   padding: 10px 10px;
+ }
+ .dp p{
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    border: 1px solid black;
+    padding: 30px 30px;
+    border-radius: 100%;
+ }
+ .desc-title{
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;;
+    font-size: 20px;
+    font-weight: 700;
+    color: black; 
+ }
+ .desc-content{
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;;
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+    margin-top: -12px;
+ } 
+ 
+ @media (max-width: 768px) {
+    #experience{
+        display: block;
+        padding: 40px 30px;
+        max-width: 100%;
+    }
+    .exp-row{
+        display: block;
+        gap: 30px;
+        margin-top: 30px;
+        max-width: 100%;
+     } 
+     .webdesigner{
+        width: 100%;
+        border: 1px solid rgb(182, 176, 176);
+        padding: 10px 3px;
+     }
+     .head{
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        margin: -10px -3px;
+        padding-left: 10px;
+        padding-right: 10px;
+        max-width: 100%;
+     }
+     .bottom{
+        width: 100%;
+        padding: 0;
+     }
+ }
