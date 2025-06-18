@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IBK</title>
     <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
 </head>
 <body>
     <header>
@@ -16,9 +17,9 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#experience">Experience</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -167,6 +168,96 @@
             </div>
         </div>
     </section>
+
+
+                                    <!-- PORTFOLIO -->
+    <section id="portfolio">
+        <div class="divexp">
+            <img src="Images/output-onlinetools (1).jpg" alt="">
+            <span>MY PROJECTS</span>
+            <p class="soft">Check Out My Latest Work</p>
+        </div>
+        <div class="divrowportfolio">
+            <div class="projectwork">
+                <img src="Images/Lasiec.png" width="100%">
+                <p class="desc-title">LASIEC Website</p>
+                <p class="desc-content">LASIEC is committed to free, fair, Transparent, credible and inclusive Electoral Process.</p>
+                <a href="https://lasiec.gov.ng/" target="_blank">
+                    Click here to Preview the Website</a>
+            </div>
+            <div class="projectwork">
+                <img src="Images/Moelagos.png" width="100%">
+                <p class="desc-title">MOELAGOS Website</p>
+                <p class="desc-content">The mandate of the Ministry was primarily to secure a clean and healthier environment.</p>
+                <a href="https://moelagos.gov.ng/" target="_blank">Click here to Preview the Website</a>
+            </div>
+            <div class="projectwork">
+                <img src="Images/OGJSC.png" width="100%">
+                <p class="desc-title">OGJSC Website</p>
+                <p class="desc-content">Upholding the highest standards of justice, integrity and judicial excellence</p>
+                <a href="https://ogjsc.og.gov.ng/" target="_blank" >Click here to Preview the Website</a>
+            </div>
+        </div>
+    </section>
+
+                                            <!-- CONTACT -->
+
+    <section id="contact">
+        <div class="divcontact">
+            <div class="divcontact2">
+              <img src="Images/output-onlinetools (1).jpg" alt="">
+              <span>STAY CONNECTED</span>
+              <p class="soft">Let’s Work Together!</p>
+            </div>
+            <div>
+                <div class="divicondesc">
+                    <article>
+                        <i class="fas fa-phone"></i>
+                    </article>
+                    <div>
+                        <p>Phone <br>+234 901 516 3930</p>
+                    </div>
+                </div>
+                <div class="divicondesc">
+                    <article>
+                        <i class="fas fa-envelope"></i>
+                    </article>
+                    <div>
+                        <p>Email <br>abdullahibraheem211@gmail.com</p>
+                    </div>
+                </div>
+                <div class="divicondesc">
+                    <article>
+                        <i class="fas fa-map-marker-alt"></i> 
+                    </article>
+                    <div>
+                        <p>Location <br>Abeokuta, Ogun State, Nigeria.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <form action="" method="post">
+            <input type="text" placeholder="Full Name" id="Fullname" name="Fullname" required>
+            <input type="email" placeholder="Email" id="Email" name="Email" required> <br>
+            <input type="tel" id="phonenumber" name="phonenumber" placeholder="Phone Number" required>
+            <select name="dropdownservices" id="dropdown">
+                <option value="">Choose Service</option>
+                <option value="Web Design">Web Design</option>
+                <option value="Front-end Development">Front-end Development</option>
+                <option value="Graphics Design">Graphics Design</option>
+            </select> <br>
+            <textarea name="message" id="textarea" rows="5" cols="45" placeholder="Message" required></textarea><br>
+            <input type="submit" value="Send Message" id="submit">
+
+        </form>
+    </section>
+    
+
+
+    <footer>
+        <p>Designed by I❤️B❤️K</p>
+    </footer>
+
 
 </body>
 </html>
